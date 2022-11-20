@@ -7,9 +7,10 @@
 .header{
             min-height: 100vh;
             width: 100%;
-            background-image:url(./image/BG.jpg);
-            background-color: black;
-            opacity: 0.3;
+            /* background-image:url(./image/BG.jpg); */
+            background-image:linear-gradient(to bottom, rgba(15, 15, 17, 0.82), rgba(48, 38, 7, 0.73)),
+            url('./image/BG.jpg');
+            /* opacity: 0.6; */
             background-position: center;
             background-size: cover;
             position: relative;
